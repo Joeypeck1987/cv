@@ -1,0 +1,38 @@
+body {
+			background-color: #bbbbbb;
+		}
+h1, h3{
+	color:#333;
+}
+		
+hr.one {
+			height: 2px;
+			width: 4%;
+			border-top: 10px dotted black;
+			border-bottom: none;
+			border-right: none;
+			border-left: none;
+		}
+
+hr.two {
+			height: 2px;
+			width: 2%;
+			border-top: 10px dotted black;
+			border-bottom: none;
+			border-right: none;
+			border-left: none;
+		}
+
+hr.three {
+			height: 2px;
+			width: 1%;
+			border-top: 10px dotted black;
+			border-bottom: none;
+			border-right: none;
+			border-left: none;
+		}
+
+div.lin, a {
+	text-align: center;
+	display: block;
+}
