@@ -1,0 +1,142 @@
+body{
+	margin-left: 0;
+	max-height: 400px;
+	background-color: #211;
+}
+
+.top-container {
+	height: 25%;
+	width: 100%;
+	background-color: #211;
+	display:inline-block;
+	}
+
+h1.glitch {
+	color:#9aa;
+	margin-bottom: 0;
+	margin-left: 20px;
+	padding:0;
+	font-family: 'Creepster', cursive;
+	text-shadow: 1px 1px 15px #999;}
+
+p.full{
+letter-spacing: .5em;
+}
+
+p {
+	color:#9aa;
+	margin-top: 5px;
+	margin-left: 10px;
+	font-family:courier;
+	text-shadow: 1px 1px 15px #999;
+}
+
+
+img.castle {
+	-webkit-filter: drop-shadow(1px 1px 15px #430000);
+  	filter: drop-shadow(1px 1px 15px #430000);
+	display: inline-block;
+	position:absolute;
+	top:140px;
+	left:480px;
+	height: 800px;
+	width: 800px;
+	animation: cmove 8s alternate-reverse;
+	animation-timing-function: linear;
+	animation-iteration-count: ;
+}
+@keyframes cmove{
+	from {left:480px;}
+	to {left:600px;}
+}
+
+
+img.tree {
+	-webkit-filter: drop-shadow(1px 1px 15px #430000);
+  	filter: drop-shadow(1px 1px 15px #430000);
+  	filter: blur(2px);
+	display: inline-block;
+	position:absolute;
+	top: 90px;
+	right:480px;
+	height: 910px;
+	width: 750px;
+	animation: tmove 8s alternate-reverse;
+	animation-timing-function: linear;
+	animation-iteration-count: ;
+}
+@keyframes tmove{
+	from {right:480px;}
+	to {right: 180px;}
+}
+
+a {
+	color:#999;
+	font-family: courier;
+	text-align: center;
+	text-shadow: 1px 1px 15px #666;
+}
+
+
+div.space {
+	height: 925px;
+	width: 100%;
+	margin:0;
+	background-color: #A30000;
+	}
+
+
+div.space div.btm1 {
+	text-align: center;
+	vertical-align: middle;
+	background-color: #211;
+	height: 11%;
+	width: 100%;
+	border-right: 0;
+	margin:0;
+
+	position:sticky;
+	top:525px;
+	bottom:0px;
+}
+
+img.joey{
+	height:200px;
+	width: 200px;
+	display:block;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	-webkit-filter: drop-shadow(1px 1px 15px #111);
+  	filter: drop-shadow(1px 1px 15px #111);
+}
+h2{
+	color:#999;
+	text-shadow: 1px 1px 15px #666;
+}
+
+h3{
+	color:#999;
+	text-shadow: 1px 1px 15px #666;
+}
+h2.sum{
+	color:#999;
+	text-align: center;
+	text-shadow: 1px 1px 15px #666;
+}
+.contact-me {
+	text-align: center;
+}
+
+.btn, .footer-link{
+	color:#999;
+	font-weight: bold;
+	text-shadow: 1px 1px 15px #666;
+	
+}
+
+fieldset.field {
+	border-color: #999;
+	text-shadow: 1px 1px 15px #666;
+}
+
